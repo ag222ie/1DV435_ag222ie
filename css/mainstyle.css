@@ -1,21 +1,159 @@
-h1, h2, h3, h4, p {
-font-family: Myriad Pro;
+/*-------------------*/
+/* MAIN */
+/*-------------------*/
+h1, h2, h3, h4 {
+    font-family: 'Times New Roman';
 }
 
-ul, dl, ol{
-font-family: Myriad Pro;
+p {
+    font-family: "Times New Roman";
+    font-style: italic;
 }
 
-ul .menu {
 
-list-style-type:none;
-margin:0;
-padding:0;
-display: inline;
+h2 {
+    font-family: 'Myriad Pro', Arial;
+    font-size: 1em;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
+
+ul, dl, ol {
+    font-family: Myriad Pro, Arial;
+}
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
+#wrapper {
+    width: auto;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#header {
+    width: 550px;
+    height: 80px;
+    background-color: #FFF500;
+}
+
+
+
+/*-------------------*/
+/* MENU */
+/*-------------------*/
+#menu {
+    width: 700px;
+    height: 150px;
+}
+
+    #menu h2 {
+        color: white;
+    }
+
+    #menu a {
+        color: white;
+        display: block;
+    }
+
+.menublock {
+    width: 150px;
+    height: 40px;
+    background-color: #FFF500;
+    margin-top: 40px;
+    margin-right: 50px;
+    float: left;
+}
+
+    .menublock h2 {
+        font-family: Myriad Pro, Arial;
+        font-size: 1em;
+        font-style: normal;
+    }
+
+.menublock_blog {
+    width: 75px;
+    height: 40px;
+    background-color: #12ff00;
+    margin-top: 40px;
+    margin-right: 50px;
+    float: left;
+}
+
+#labswrapper {
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-left: 200px;
+}
+
+.labslink {
+    width: 30px;
+    height: 30px;
+    background-color: #FFF500;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+    .labslink p {
+        font-family: Myriad Pro, Arial;
+        font-style: normal;
+        margin-top: 5px;
+        text-align: center;
+        color: white;
+    }
+
+
+
+
+/*-------------------*/
+/* BLOG */
+/*-------------------*/
+#blogwrapper {
+    height: 265px;
+    width: auto;
+    float: left;
+    margin-top: 50px;
+}
+
+#blogheader {
+    width: 150px;
+    height: 40px;
+    background-color: #12ff00;
+}
+
+    #blogheader h2 {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+.blogpost {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+    .blogpost h3 {
+        font-size: 1.75em;
+        margin-top: 5px;
+        font-family: 'Adobe Caslon Pro', 'Times New Roman';
+        line-height: 85%;
+    }
+
+    .blogpost p {
+        font-size: 0.85em;
+        margin-top: -15px;
+    }
+
+.date {
+    font-style: normal;
+    float: right;
+    font-weight: bold;
+    padding-top: 18px;
+}

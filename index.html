@@ -1,31 +1,68 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
 
 <head>
-<title>Webbteknisk introduktion</title>
+    <title>Webbteknisk introduktion</title>
 
-<link rel="stylesheet" type="text/css" href="css/mainstyle.css">
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
-
+    <link rel="stylesheet" type="text/css" href="css/mainstyle.css">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 </head>
 <!-- 42 -->
 
 <body>
 
-<h1>Webbteknisk introduktion</h1>
+    <div id="wrapper">
+        <div id="header">
+            <h1></h1>
+        </div>
 
-<ul>
-<li class="menu"><a href="index.html">Start<a/></li>
-<li class="menu"><a href="pages/lab1.html">Laboration 1<a/></li>
-<li class="menu"><a href="pages/lab2.html">Laboration 2<a/></li>
-<li class="menu"><a href="pages/lab3.html">Laboration 3<a/></li>
-</ul>
+        <div id="menu">
+            <div class="menublock">
+                <h2><a href="index.html">Start</a></h2>
+            </div>
+            <div class="menublock">
+                <h2>Laborationer</h2>
+            </div>
+            <div class="menublock_blog">
+                <h2><a href="#blog">Blog</a></h2>
+            </div>
 
-<p>
-<a href="pages/presentation.html#apollo">Länk till bild.</a>
-</p>
+            <div id="labswrapper">
+                <div class="labslink">
+                    <p><a href="pages/lab1.html">1</a></p>
+                </div>
+                <div class="labslink">
+                    <p><a href="pages/lab2.html">2</a></p>
+                </div>
+                <div class="labslink">
+                    <p><a href="pages/lab3.html">3</a></p>
+                </div>
+            </div>
+        </div>
 
+        <div id="blogwrapper">
+            <div id="blogheader">
+                <a  name="blog"></a>
+            </div>
+            <div class="blogpost">
+                <h3>Länk till bild</h3>
+                <p>
+                    <a href="pages/presentation.html#apollo">Länk till bild.</a>
+                </p>
+                <p class="date">2013-11-17</p>
+            </div>
+            <div class="blogpost">
+                <h3>Första blogginlägget</h3>
+                <p>
+                    Fusce faucibus sit amet tortor sit amet ornare. Phasellus tempus consequat 
+                    augue et consectetur. Morbi pulvinar nisl sem, quis dignissim quam bibendum
+                    id. Pellentesque luctus dapibus lacus, sed gravida nisi.
+                </p>
+                <p class="date">2013-11-15</p>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
