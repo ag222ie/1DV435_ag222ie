@@ -1,65 +1,54 @@
 /*-------------------*/
 /* MAIN */
 /*-------------------*/
-body
-{
-    background-color:#e9f4f8;
+body {
+    background-color: #e9f4f8;
 }
 
-h1, h2, h3, h4
-{
+h1, h2, h3, h4 {
     font-family: 'Times New Roman';
 }
 
-.title
-{
+.title {
     font-family: Myriad Pro;
     color: White;
     margin-left: 10px;
     border-bottom: 10px solid #e9f4f8;
 }
 
-u
-{
+u {
     text-decoration: none;
 }
 
-p
-{
+p {
     font-family: "Myriad Pro";
-    
 }
 
 
-h2
-{
-    font-family: 'Myriad Pro' , Arial;
+h2 {
+    font-family: 'Myriad Pro', Arial;
     font-size: 1em;
     margin-left: 10px;
     margin-top: 10px;
 }
 
 
-ul, dl, ol
-{
+ul, dl, ol {
     font-family: Myriad Pro, Arial;
 }
 
-a
-{
+a {
     text-decoration: none;
 }
 
-#wrapper
-{
+#wrapper {
     width: auto;
     height: auto;
     margin-top: 5%;
     margin-left: 5%;
 }
 
-#header
-{
+#header {
     width: 550px;
     height: 80px;
     background-color: #fff732;
@@ -70,25 +59,21 @@ a
 /*-------------------*/
 /* MENU */
 /*-------------------*/
-#menu
-{
+#menu {
     width: 700px;
     height: 150px;
 }
 
-#menu h2
-{
-    color: white;
-}
+    #menu h2 {
+        color: white;
+    }
 
-#menu a
-{
-    color: white;
-    display: block;
-}
+    #menu a {
+        color: white;
+        display: block;
+    }
 
-.menublock
-{
+.menublock {
     width: 150px;
     height: 40px;
     background-color: #fff732;
@@ -97,15 +82,13 @@ a
     float: left;
 }
 
-.menublock h2
-{
-    font-family: Myriad Pro, Arial;
-    font-size: 1em;
-    font-style: normal;
-}
+    .menublock h2 {
+        font-family: Myriad Pro, Arial;
+        font-size: 1em;
+        font-style: normal;
+    }
 
-.menublock_blog
-{
+.menublock_blog {
     width: 75px;
     height: 40px;
     background-color: #41ff32;
@@ -114,16 +97,14 @@ a
     float: left;
 }
 
-#labswrapper
-{
+#labswrapper {
     width: 150px;
     height: auto;
     float: left;
     margin-left: 200px;
 }
 
-.labslink
-{
+.labslink {
     width: 30px;
     height: 30px;
     background-color: #fff732;
@@ -132,14 +113,13 @@ a
     margin-right: 10px;
 }
 
-.labslink p
-{
-    font-family: Myriad Pro, Arial;
-    font-style: normal;
-    margin-top: 5px;
-    text-align: center;
-    color: white;
-}
+    .labslink p {
+        font-family: Myriad Pro, Arial;
+        font-style: normal;
+        margin-top: 5px;
+        text-align: center;
+        color: white;
+    }
 
 
 
@@ -147,63 +127,60 @@ a
 /*-------------------*/
 /* BLOG */
 /*-------------------*/
-#blogwrapper
-{
+#blogwrapper {
     height: 265px;
     width: auto;
     float: left;
     margin-top: 50px;
 }
 
-#blogheader
-{
+#blogheader {
     width: 150px;
     height: 40px;
     background-color: #41ff32;
 }
 
-#blogheader h2
-{
-    margin-top: 10px;
-    margin-left: 10px;
-}
+    #blogheader h2 {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
 
-.blogpost
-{
-    background-color:white;
+.blogpost {
+    background-color: white;
     width: 200px;
     height: auto;
     float: left;
     margin-top: 25px;
     margin-right: 50px;
     padding: 10px;
-    border:1px #d3d3d3 solid;
+    border: 1px #d3d3d3 solid;
     box-shadow: 1px 1px 5px #888888;
-
 }
 
-.blogpost h3
-{
-    background-color:#2cabe2;   
+.blogimage {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.blogpost h3 {
+    background-color: #2cabe2;
     font-size: 1.5em;
     margin-top: 5px;
     font-family: georgia;
     line-height: 100%;
-    
-    padding-left:5px;
-    padding-top:10px;
-    padding-bottom:10px;
-    color:white;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
 }
 
-.blogpost p
-{
+.blogpost p {
     font-size: 0.85em;
     margin-top: -15px;
 }
 
-.date
-{
+.date {
     font-style: italic;
     float: right;
     font-weight: bold;
