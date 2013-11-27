@@ -16,7 +16,7 @@ h1, h2, h3, h4 {
     border-bottom: 10px solid #e9f4f8;
 }
 
-u {
+ul {
     text-decoration: none;
 }
 
@@ -42,10 +42,11 @@ a {
 }
 
 #wrapper {
-    width: auto;
+    width: 960px;
     height: auto;
-    margin-top: 5%;
-    margin-left: 5%;
+     margin: 0 auto;
+
+
 }
 
 #header {
@@ -70,7 +71,6 @@ a {
 
     #menu a {
         color: white;
-        display: block;
     }
 
 .menublock {
@@ -81,13 +81,21 @@ a {
     margin-right: 50px;
     float: left;
 }
-
     .menublock h2 {
         font-family: Myriad Pro, Arial;
         font-size: 1em;
         font-style: normal;
     }
 
+.menublock_start{
+    width: 150px;
+    height: 40px;
+    background-color: #fff732;
+    margin-top: 40px;
+    margin-right: 50px;
+    float: left;
+
+}
 .menublock_blog {
     width: 75px;
     height: 40px;
@@ -96,6 +104,13 @@ a {
     margin-right: 50px;
     float: left;
 }
+
+.menublock_start:hover, .menublock_blog:hover, .labslink:hover{
+    text-decoration: underline;
+}
+
+
+
 
 #labswrapper {
     width: 150px;
@@ -115,10 +130,11 @@ a {
 
     .labslink p {
         font-family: Myriad Pro, Arial;
-        font-style: normal;
+        font-weight: bolder;
         margin-top: 5px;
         text-align: center;
         color: white;
+
     }
 
 
