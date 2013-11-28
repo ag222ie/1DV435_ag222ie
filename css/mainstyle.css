@@ -44,9 +44,7 @@ a {
 #wrapper {
     width: 960px;
     height: auto;
-     margin: 0 auto;
-
-
+    margin: 0 auto;
 }
 
 #header {
@@ -81,21 +79,22 @@ a {
     margin-right: 50px;
     float: left;
 }
+
     .menublock h2 {
         font-family: Myriad Pro, Arial;
         font-size: 1em;
         font-style: normal;
     }
 
-.menublock_start{
+.menublock_start {
     width: 150px;
     height: 40px;
     background-color: #fff732;
     margin-top: 40px;
     margin-right: 50px;
     float: left;
-
 }
+
 .menublock_blog {
     width: 75px;
     height: 40px;
@@ -105,9 +104,9 @@ a {
     float: left;
 }
 
-.menublock_start:hover, .menublock_blog:hover, .labslink:hover{
-    text-decoration: underline;
-}
+    .menublock_start:hover, .menublock_blog:hover, .labslink:hover {
+        text-decoration: underline;
+    }
 
 
 
@@ -134,10 +133,7 @@ a {
         margin-top: 5px;
         text-align: center;
         color: white;
-
     }
-
-
 
 
 /*-------------------*/
@@ -202,3 +198,5 @@ a {
     font-weight: bold;
     padding-top: 18px;
 }
+
+

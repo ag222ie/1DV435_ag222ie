@@ -1,0 +1,43 @@
+﻿
+.title {
+    font-family: 'Times New Roman';
+    color: #000;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: underline;
+    color: #0000ff;
+}
+
+#menu {
+    display: none;
+}
+
+#blogheader {
+    border: none;
+}
+
+.blogpost {
+    width: 100%;
+    height: auto;
+    border: none;
+}
+
+    .blogpost h3 {
+        font-family: 'Times New Roman';
+        color: #000;
+    }
+
+    .blogpost p {
+        font-family: 'Times New Roman';
+        color: #000;
+    }
+
+img {
+    display: none;
+}
+
+a:link:after, a:visited:after {
+    content: " [" attr(href) "] ";
+}

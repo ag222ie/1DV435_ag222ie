@@ -1,0 +1,189 @@
+﻿/* Denna fil fÃ¥r du editera fÃ¶r att lÃ¶sa uppgiften. Du fÃ¥r INTE Ã¤ndra i html-filen. */
+
+#container
+{
+	width: 600px;
+	margin: auto;
+	background-repeat: no-repeat;
+	height: auto;
+	background-color: #51473d;
+	border: 1px solid #cecab9;
+}
+
+#topbar
+{
+	text-align: right;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.65em;
+	height: 215px;
+	float: left;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-color: #51473d;
+	background-image: url(pics/coffey.jpg);
+	background-position: 0px 15px;
+	color: #eae7d2;
+	font-style: italic;
+}
+
+#menu
+{
+    padding: 0px;
+    display: inline-block;
+    height: 35px;
+}
+
+#menu ul
+{
+	list-style: none;
+	font-weight: normal;
+	text-align: center;
+	font-size: 0.9em;
+	height: 30px;
+	float: left;
+	margin-top: 5px;
+	margin-right: -30px;
+	margin-bottom: 5px;
+	margin-left: -30px;
+}
+
+#menu ul li
+{
+    float: left;
+}
+
+#menu ul li a
+{
+	display: block;
+	font-family: Verdana, Geneva, sans-serif;
+	text-decoration: none;
+	font-size: 14px;
+	text-align: center;
+	color: #eae7d2;
+	margin-left: 1px;
+	text-transform: capitalize;
+	background-color: #797066;
+	padding-top: 9px;
+	padding-right: 15px;
+	padding-bottom: 9px;
+	padding-left: 15px;
+}
+
+#menu ul li a:hover
+{
+	color: #eae7d2;
+	background-color: #9c9084;
+}
+
+#menu .active a
+{
+    color: #888076;
+    background: #eae7d2;
+}
+
+#subcontent ul li
+{
+    list-style: none;
+}
+
+#subcontent ul
+{
+    padding: 0px;
+    margin: -1px;
+    font-size: 0.8em;
+}
+
+#subcontent ul li a
+{
+    color: #51473d;
+	font-size: 1.5em;
+}
+
+h1
+{
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #797066;
+	font-size: 1.4em;
+}
+
+#maincontent h1
+{
+	font-family: "Times New Roman", Times, serif;
+	font-weight: lighter;
+	font-size: 2em;
+	color: #797066;
+}
+
+h2
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.2m;
+	font-weight: lighter;
+}
+
+#content
+{
+	background: #eae7d2;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.8em;	
+	color: #797066;
+	text-align: left;
+	line-height: 20px;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#maincontent
+{
+    float: left;
+    width: 350px;
+    height: auto;
+    border-right: 1px dashed Gray;
+    margin-right: 8px;
+    padding: 7px;
+}
+
+#menu a
+{
+    display: none;
+}
+
+#maincontent img
+{
+	float: left;
+	background-image: url(../pics/info.jpg);
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 100px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#subcontent
+{
+    padding-top: 17px;
+    margin: auto;
+    font-size: 0.8em;
+}
+
+#subcontent h2
+{
+    margin: 0px;
+    font-weight: normal;
+}
+
+#bottomcontent
+{
+    font-size: 0.6em;
+    font-style: italic;
+    width: 500px;
+    overflow: auto;
+}
