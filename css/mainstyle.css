@@ -39,6 +39,7 @@ ul, dl, ol {
 
 a {
     text-decoration: none;
+    color:#000;
 }
 
 #wrapper {
@@ -58,6 +59,10 @@ a {
 /*-------------------*/
 /* MENU */
 /*-------------------*/
+#active {
+    background-color: #b2ac23;
+}
+
 #menu {
     width: 700px;
     height: 150px;
@@ -199,4 +204,6 @@ a {
     padding-top: 18px;
 }
 
-
+.blogpost a {
+    color: #000;
+}
