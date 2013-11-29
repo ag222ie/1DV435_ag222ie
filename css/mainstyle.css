@@ -1,8 +1,8 @@
 /*-------------------*/
 /* MAIN */
 /*-------------------*/
-body {
-    background-color: #e9f4f8;
+body {    
+    background-image:url('../pics/bg.png');
 }
 
 h1, h2, h3, h4 {
@@ -144,27 +144,27 @@ a {
 /*-------------------*/
 /* BLOG */
 /*-------------------*/
-#blogwrapper {
+#contentwrapper {
     height: 265px;
     width: auto;
     float: left;
     margin-top: 50px;
 }
 
-#blogheader {
+#contentheader {
     width: 150px;
     height: 40px;
-    background-color: #41ff32;
+    background-image:url('../pics/cbg.png');
 }
 
-    #blogheader h2 {
+    #contentheader h2 {
         margin-top: 10px;
         margin-left: 10px;
     }
 
 .blogpost {
     background-color: white;
-    width: 200px;
+    width: 100%;
     height: auto;
     float: left;
     margin-top: 25px;
@@ -174,11 +174,19 @@ a {
     box-shadow: 1px 1px 5px #888888;
 }
 
-.blogimage {
+.blogimage-right {
     width: 200px;
     height: auto;
     margin-bottom: 20px;
+    float:right;
 }
+.blogimage-left {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    float:left;
+}
+
 
 .blogpost h3 {
     background-color: #2cabe2;
@@ -195,15 +203,16 @@ a {
 .blogpost p {
     font-size: 0.85em;
     margin-top: -15px;
+    text-align:left;
 }
 
 .date {
     font-style: italic;
-    float: right;
+    float: left;
     font-weight: bold;
-    padding-top: 18px;
+    padding-top: 50px;
 }
 
 .blogpost a {
-    color: #000;
+    color: #0000ff;
 }
