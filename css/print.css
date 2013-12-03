@@ -1,8 +1,11 @@
 ﻿
+#header{height:auto; width:100%;}
+
 .title {
     font-family: 'Times New Roman';
     color: #000;
     text-decoration: none;
+    border-bottom: none;
 }
 
 a {

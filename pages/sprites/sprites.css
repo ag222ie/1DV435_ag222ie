@@ -1,0 +1,87 @@
+﻿nav {
+    border-bottom: none;
+    list-style-type: none;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+    nav li {
+        border-bottom: 10px solid black;
+        list-style-type: none;
+        border-bottom: 15px solid black;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Myriad Pro', Arial;
+        font-weight: bold;
+        padding: 10px;
+        display: block;
+        display: block;
+        padding: 10px;
+        background-color: #b6ff00;
+        color: white;
+        background-color: black;
+    }
+
+    nav ul li a:hover {
+        background-color: #ff6a00;
+    }
+
+    nav li a {
+        display: block;
+        text-decoration: none;
+        padding: 10px 10px 10px 40px;
+        background-image: url(../../pics/sprite.png);
+        background-repeat: no-repeat;
+    }
+
+    nav a {
+        width: 150px;
+        height: 20px;
+        display: block;
+        background-image: url(../..pics/sprite.png);
+        background-repeat: no-repeat;
+    }
+
+    nav li {
+        float: left;
+        list-style-type: none;
+        margin-right: 10px;
+    }
+
+#start-icon {
+    background-position: 5px -38px;
+}
+
+    #start-icon:hover {
+        background-position: 5px 10px;
+    }
+
+
+#kontakt-icon {
+    background-position: 5px -325px;
+}
+
+    #kontakt-icon:hover {
+        background-position: 5px -277px;
+    }
+
+#laboration-icon {
+    background-position: 5px -134px;
+}
+
+    #laboration-icon:hover {
+        background-position: 5px -86px;
+    }
+
+#presentation-icon {
+    background-position: 5px -231px;
+}
+
+    #presentation-icon:hover {
+        background-position: 5px -183px;
+    }
+}

@@ -21,7 +21,7 @@ ul {
 }
 
 p {
-    font-family: "Myriad Pro";
+    font-family: "Myriad Pro", Arial;
 }
 
 
@@ -63,6 +63,8 @@ a {
     background-color: #b2ac23;
 }
 
+.menulink{color:#fff;}
+
 #menu {
     width: 700px;
     height: 150px;
@@ -72,9 +74,7 @@ a {
         color: white;
     }
 
-    #menu a {
-        color: white;
-    }
+
 
 .menublock {
     width: 150px;
