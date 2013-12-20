@@ -1,0 +1,46 @@
+﻿/**/
+
+p {
+    font-family: 'Myriad Pro';
+    text-align: center;
+    margin-top: 9px;
+    color: white;
+    font-weight: bold;
+}
+
+#wrapper {
+    height: auto;
+    width: 250px;
+}
+
+#text {
+    width: 125px;
+    height: 40px;
+    float: left;
+}
+
+#button {
+    width: 125px;
+    height: 40px;
+    background-color: black;
+    display: block;
+    float: left;
+}
+
+#results {
+    width: 250px;
+    height: auto;
+    background-color: grey;
+    float: left;
+    color: white;
+    font-family: 'Myriad Pro';
+    font-size: 0.85em;    
+    font-weight: 500;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#results p {
+text-align:left;
+margin-left:15px;
+}

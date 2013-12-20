@@ -1,0 +1,10 @@
+﻿/*42*/
+
+#image {
+    width: auto;
+    height: 500px;
+    background-color: gray;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center;
+}
